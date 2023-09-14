@@ -13,7 +13,9 @@ Ghost is a minimal Windows launcher, it simply forwards the path of apps that yo
 
 ### Demo:
 
-https://github.com/orisamain/ghost/assets/144898113/ea478296-f2de-4740-9322-f369906ce527
+https://github.com/orisamain/ghost/assets/144898113/3810a2a4-2cd7-46e0-ac49-f29e4379c78d
+
+
 
 
 ### Install:
