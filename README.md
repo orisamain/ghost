@@ -12,6 +12,7 @@ Ghost is a minimal Windows launcher, it simply forwards the path of apps that yo
 ```
 
 ### Demo:
+[Demo](assets/demo.mp4)
 
 ### Install:
 
