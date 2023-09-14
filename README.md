@@ -63,4 +63,4 @@ Run Ghost, type the app to launch, press enter.
 
 
 ### Security:
-Ghost is written in Nim, as a well known [issue](https://forum.nim-lang.org/t/9850), Nim executables might get flagged by antivirus software. It's a false positive. Ghost is absolutely clean, cannot connect to the internet, and the source can be easily inspected and built upon (it's barely 200 lines of code, really minimal 😊)
+Ghost is written in [Nim](https://nim-lang.org/), as a well known [issue](https://forum.nim-lang.org/t/9850), Nim executables might get flagged by antivirus software. It's a false positive. Ghost is absolutely clean, cannot connect to the internet, and the source can be easily inspected and built upon (it's barely 200 lines of code, really minimal 😊)
