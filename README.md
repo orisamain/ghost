@@ -42,8 +42,7 @@ WinActivate, ahk_exe ghost.exe
 return
 }
 ```
-To have Ghost available at Windows startup you can place the invoking script in the Windows startup folder ```C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` or add a task to the Windows ```TaskScheduler``` to start the script at login, in that case it's recommended to check "Run with highest privileges" to have Ghost up and running immediately at startup while the other programs are still loading.
-
+To have Ghost available at Windows startup you can place the invoking script in the Windows startup folder ```C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` or add a task to the Windows ```TaskScheduler``` to start the script at login.
 
 
 ### Configuration:
