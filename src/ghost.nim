@@ -47,12 +47,13 @@ let combosel = ComboBox(sub1,style=wCbSimple or wCbNeededScroll or wBorderSunken
 combosel.getTextCtrl.setBackgroundColor(wLightBlue)
 combosel.getlistcontrol.setBackgroundColor(wLightBlue)
 
-proc defaultSkin()  =
-  combosel.getTextCtrl.setBackgroundColor(wLightBlue)
-  combosel.getlistcontrol.setBackgroundColor(wLightBlue)
-  sub1.setBackgroundColor(15790320)
-  combosel.getTextCtrl.setForegroundColor(wBlack)
-  combosel.getlistcontrol.setForegroundColor(wBlack)
+proc adminSkin()  =
+  combosel.getTextCtrl.setBackgroundColor(wDarkGrey)
+  combosel.getlistcontrol.setBackgroundColor(wDarkGrey)
+  sub1.setBackgroundColor(wIndianRed)
+  combosel.getTextCtrl.setForegroundColor(wWhite)
+  combosel.getlistcontrol.setForegroundColor(wWhite)
+  frame.setBackgroundColor(wIndianRed)
 
 proc darkSkin() =
   combosel.getTextCtrl.setForegroundColor(wWhite)
@@ -62,7 +63,11 @@ proc darkSkin() =
   sub1.setBackgroundColor(wDarkSlateGrey)
   frame.setBackgroundColor(wDarkSlateGrey)
 
-darkSkin()
+if isAdmin():
+  adminSkin()
+else:
+  darkSkin() 
+
 
 var accel = AcceleratorTable()
 accel.add(wAccelNormal, wKey_Esc, idEsc)
